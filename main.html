@@ -1,16 +1,102 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Webpage</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
 
+        /* Header Styling */
+        .header {
+            background-color: #011e29;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Latest News Section */
+        .latest-news-section {
+            background-color: #ffffff;
+            padding: 20px;
+            width: 80%;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .latest-news-section h2 {
+            margin-top: 0;
+            color: #011e29;
+        }
+
+        .latest-news-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .latest-news-section li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .latest-news-section li:last-child {
+            border-bottom: none;
+        }
+
+        /* Pictorial News Section */
+        .pictorial-news-section {
+            background-color: #ffffff;
+            padding: 20px;
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .pictorial-news-section h2 {
+            margin-top: 0;
+            color: #011e29;
+        }
+
+        .pictorial-news-section img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Welcome to Daily News</h1>
+    </header>
+
+    <!-- Latest News Section -->
+    <div class="latest-news-section">
+        <h2>Latest News</h2>
+        <ul>
+            <li>Breaking: Global markets hit new highs.</li>
+            <li>Sports Update: Local team wins championship!</li>
+            <li>Weather Alert: Heavy rains expected this week.</li>
+        </ul>
+    </div>
+
+    <!-- Pictorial News Section -->
+    <div class="pictorial-news-section">
+        <h2>Pictorial News</h2>
+        <img src="https://via.placeholder.com/200?text=Image+One" alt="Image One">
+        <img src="https://via.placeholder.com/200?text=Image+Two" alt="Image Two">
+        <img src="https://via.placeholder.com/200?text=Image+Three" alt="Image Three">
+    </div>
 
 </body>
-
 </html>
