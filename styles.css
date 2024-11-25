@@ -1,1 +1,65 @@
-/*  your css code here. If applicable */
+/* General body styling */
+body {
+    background-color: #f5f5f5; /* Body background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header {
+    background-color: #011e29; /* Header background color */
+    color: white;
+    text-align: center; /* Center align the text */
+    padding: 20px;
+}
+
+/* Latest News section styling */
+.latest-news-section {
+    background-color: #011e29; /* Latest news section background color */
+    color: white;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.latest-news-section h3 {
+    text-align: center;
+}
+
+.latest-news-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.latest-news-section li {
+    margin: 10px 0;
+}
+
+/* Pictorial News section styling */
+.pictorial-news-section {
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pictorial-news-section h2 {
+    color: #011e29;
+}
+
+.news-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.news-images img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
